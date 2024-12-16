@@ -1,0 +1,45 @@
+body {
+  padding: 25%;
+  background-color: white;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+html {
+  text-align: center;
+}
+
+div {
+  background-color: #18e7b7;
+  width: 300px;
+  border: 15px solid #46ecc5;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+.button1 {
+  border-radius: 12px;
+}
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 25px;
+}

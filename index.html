@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <div class="content">
+    <head>
+      <title>Height Calculator</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <style>
+        .content {
+          max-width: 500px;
+          margin: auto;
+        }
+      </style>
+    </head>
+
+    <body>
+      <h1>Height Calculator</h1>
+      <p>
+        This is a Height Calculator to predict ones height by using the height
+        of the parent
+      </p>
+
+      <ul>
+        <p>Child's Age: <input id="num1" type="number"</p>
+
+        <p> 
+         <h1>Child's Gender</h1>
+            <label class="container">Female
+              <input type="radio" checked="checked" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">Male
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+    </p>
+
+        <p>Child's Height: <input id="num3" type="number"</p>
+
+        <p>Child's Weight: <input id="num4" type="number"</p>
+
+        <p>Mother's Height: <input id="num5" type="number"</p>
+
+        <p>Father's Height: <input id="num6" type="number"</p>
+      </ul>
+      <p><button id="calc-btn" class="button button1">CALCULATE</button></p>
+
+      <p>The Predicted Height is: <span id="ave-out">----</span></p>
+
+      <button id="calc-btn" class="button button1" onclick="darkMode()">
+        Darkmode
+      </button>
+
+      <script>
+        function darkMode() {
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+        }
+      </script>
+
+      <script src="script.js"></script>
+    </body>
+  </div>
+</html>
